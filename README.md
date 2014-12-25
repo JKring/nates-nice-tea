@@ -10,5 +10,4 @@
 
 ## Deploying
 
-    lein uberjar
     git push heroku master

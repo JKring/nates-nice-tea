@@ -84,6 +84,21 @@ a:hover {
   box-shadow: 2px 2px 2px #131313;
 }
 
+.description {
+  background: #dedede;
+  font-size: 18px;
+  padding:10px;
+  line-height: 45px;
+}
+
+.green-text {
+  color: #058262;
+}
+
+.white-text {
+  color: white;
+}
+
 .footer {
   border-top:2px solid #FF6249;
   width:100%;

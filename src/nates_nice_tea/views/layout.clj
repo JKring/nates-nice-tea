@@ -59,7 +59,6 @@
     [:div {:class "col-md-3 col-md-offset-1 text-center"}
       [:img {:class "photo" :src "../placeholder.png"}]]])
 
-
 (defn call-to-action []
   [:div {:class "row"}
     [:div {:class "col-md-12 text-center call-to-action"}
@@ -74,6 +73,52 @@
     (green)
     (white)
     (black)))
+
+(defn subscription []
+  [:div {:class "row"}
+    [:div {:class "col-md-3 col-md-offset-1 text-center"}
+      [:img {:src "../subscription.png" }]]
+    [:div {:class "col-md-6 text-right call-to-action"}
+      [:h1 "Get 3 Nice Teas per Month"]
+      [:p [:span {:class "description"}
+        "A "
+        [:b {:class "green-text"} "Green Tea"]
+        ", a "
+        [:b "Black Tea"]
+        " and a "
+        [:b {:class "white-text"} "White Tea"]
+        " every month for "
+        [:b "$20"]]]
+      [:a {:class "btn btn-lg" :role "button" :href "/order" }
+        "Subscribe"
+        [:span {:class "glyphicon glyphicon-play" :aria-hidden "true" }]]]])
+
+(defn case []
+  [:div {:class "row"}
+    [:div {:class "col-md-6 col-md-offset-1 call-to-action"}
+      [:h1 "Buy a Case of Nice Tea"]
+      [:p [:span {:class "description"}
+        "4 "
+        [:b {:class "green-text"} "Green Teas"]
+        ", 4 "
+        [:b "Black Teas"]
+        " and 4 "
+        [:b {:class "white-text"} "White Teas"]
+        " for "
+        [:b "$75"]]]
+      [:a {:class "btn btn-lg" :role "button" :href "/order" }
+          "Buy"
+          [:span {:class "glyphicon glyphicon-play" :aria-hidden "true" }]]]
+    [:div {:class "col-md-3 text-center"}
+      [:img {:src "../case.png" }]]])
+
+(defn order []
+  (common "Order Nate's Nice Tea"
+    (subscription)
+    [:hr]
+    [:br]
+    [:br]
+    (case)))
 
 (defn four-oh-four []
   (common "Page Not Found"
