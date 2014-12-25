@@ -1,1 +1,1 @@
-web: java $JVM_OPTS -jar target/bloody-mary-standalone.jar
+web: java $JVM_OPTS -jar target/nates-nice-tea-standalone.jar
