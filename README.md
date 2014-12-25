@@ -7,3 +7,8 @@
 ### Start Nate's Nice Tea
 
     lein run -m nates-nice-tea.web
+
+## Deploying
+
+    lein uberjar
+    git push heroku master
