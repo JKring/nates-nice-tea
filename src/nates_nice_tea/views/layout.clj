@@ -22,7 +22,7 @@
       [:div {:class "footer"}
         [:p
           [:a {:href "https://github.com/jkring/nates-nice-tea"}
-            [:span "⚒  "] " in Oakland"]]]]))
+            [:span "⚒  "] " in Philly"]]]]))
 
 (defn logo []
   [:div {:class "row"}
@@ -43,11 +43,13 @@
 
 (defn white []
   [:div {:class "row tea-color white-tea"}
-    [:div {:class "col-md-3 col-md-offset-1 text-center"}
+    [:div {:class "col-md-3 col-md-offset-1 text-center hidden-sm hidden-xs"}
         [:img {:class "photo" :src "../placeholder.png"}]]
     [:div {:class "col-md-6"}
       [:h1 {:class "text-right"} "White Tea"]
-      [:p "Lebowski ipsum yeah man, it really tied the room together. Dolor sit amet, consectetur adipiscing elit praesent ac. Life does not stop and start at your convenience, you miserable piece of shit. Magna justo pellentesque ac lectus. They're nihilists. Quis elit blandit fringilla a. They finally did it. They killed my fucking car. Ut turpis praesent felis ligula, malesuada suscipit malesuada non. Vee vant zat money, Lebowski. Ultrices non urna sed orci ipsum, placerat id condimentum rutrum, rhoncus ac lorem."]]])
+      [:p "Lebowski ipsum yeah man, it really tied the room together. Dolor sit amet, consectetur adipiscing elit praesent ac. Life does not stop and start at your convenience, you miserable piece of shit. Magna justo pellentesque ac lectus. They're nihilists. Quis elit blandit fringilla a. They finally did it. They killed my fucking car. Ut turpis praesent felis ligula, malesuada suscipit malesuada non. Vee vant zat money, Lebowski. Ultrices non urna sed orci ipsum, placerat id condimentum rutrum, rhoncus ac lorem."]]
+    [:div {:class "col-md-3 col-md-offset-1 text-center hidden-md hidden-lg"}
+        [:img {:class "photo" :src "../placeholder.png"}]]])
 
 (defn black []
   [:div {:class "row tea-color black-tea"}
