@@ -1,10 +1,16 @@
 #content {
-  padding-top:80px;
-  min-height:1000px;
+  padding-top:60px;
+  min-height: 900px;
+}
+
+.logo {
+  margin-bottom:30px;
 }
 
 p {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px !important;
+  padding-bottom:25px;
 }
 
 a {
@@ -16,8 +22,70 @@ a:hover {
   text-decoration: none !important;
 }
 
+.call-to-action {
+  margin-bottom: 40px;
+}
+
+.call-to-action .btn {
+  border:2px solid #FF6249;
+}
+
+.call-to-action .btn:hover {
+  border:2px solid #CF3219;
+}
+
+.call-to-action .btn span {
+  font-size: 14px;
+  padding-left:5px;
+}
+
+.tea-color {
+  min-height:200px;
+  color: #F1F1F1;
+}
+
+.tea-color .photo {
+  margin-top: 40px;
+  background: white;
+  padding: 15px 15px 40px 15px;
+  box-shadow: 2px 2px 2px #383838;
+  border-top: 1px solid #F1F1F1;
+  border-left: 1px solid #F1F1F1;
+}
+
+.green-tea {
+  background: #058262;
+}
+
+.green-tea .photo {
+  -ms-transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+  transform: rotate(6deg);
+}
+
+.white-tea {
+  color: #131313;
+}
+
+.white-tea .photo {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.black-tea {
+  background: #131313;
+}
+
+.black-tea .photo {
+  -ms-transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+  transform: rotate(8deg);
+  box-shadow: 2px 2px 2px #131313;
+}
+
 .footer {
-  border-top:2px solid #eee;
+  border-top:2px solid #FF6249;
   width:100%;
   padding:20px;
   background: #fafafa;
@@ -26,8 +94,9 @@ a:hover {
 
 .footer p {
   margin:0px;
+  padding-bottom: 10px;
 }
 
 .footer p a span {
-  font-size:24px;
+  font-size:30px;
 }
