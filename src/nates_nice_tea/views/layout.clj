@@ -93,7 +93,7 @@
         "Subscribe"
         [:span {:class "glyphicon glyphicon-play" :aria-hidden "true" }]]]])
 
-(defn case []
+(defn custom-case []
   [:div {:class "row"}
     [:div {:class "col-md-6 col-md-offset-1 call-to-action"}
       [:h1 "Buy a Case of Nice Tea"]
@@ -118,7 +118,7 @@
     [:hr]
     [:br]
     [:br]
-    (case)))
+    (custom-case)))
 
 (defn four-oh-four []
   (common "Page Not Found"
