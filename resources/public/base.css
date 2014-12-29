@@ -10,7 +10,7 @@
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px !important;
-  padding-bottom:25px;
+  padding-bottom:10px;
 }
 
 a {
@@ -34,8 +34,13 @@ a:hover {
   border:2px solid #CF3219;
 }
 
-.call-to-action .btn span {
+.call-to-action .btn-lg span {
   font-size: 14px;
+  padding-left:5px;
+}
+
+.call-to-action .btn-md span {
+  font-size: 12px;
   padding-left:5px;
 }
 

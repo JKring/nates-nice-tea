@@ -39,17 +39,17 @@
       [:h1 "Green Tea"]
       [:p "Lebowski ipsum yeah man, it really tied the room together. Dolor sit amet, consectetur adipiscing elit praesent ac. Life does not stop and start at your convenience, you miserable piece of shit. Magna justo pellentesque ac lectus. They're nihilists. Quis elit blandit fringilla a. They finally did it. They killed my fucking car. Ut turpis praesent felis ligula, malesuada suscipit malesuada non. Vee vant zat money, Lebowski. Ultrices non urna sed orci ipsum, placerat id condimentum rutrum, rhoncus ac lorem."]]
     [:div {:class "col-md-3 text-center"}
-      [:img {:class "photo" :src "../placeholder.png"}]]])
+      [:img {:class "photo" :src "../green-tea.jpg"}]]])
 
 (defn white []
   [:div {:class "row tea-color white-tea"}
     [:div {:class "col-md-3 col-md-offset-1 text-center hidden-sm hidden-xs"}
-        [:img {:class "photo" :src "../placeholder.png"}]]
+        [:img {:class "photo" :src "../white-tea.jpg"}]]
     [:div {:class "col-md-6"}
       [:h1 {:class "text-right"} "White Tea"]
       [:p "Lebowski ipsum yeah man, it really tied the room together. Dolor sit amet, consectetur adipiscing elit praesent ac. Life does not stop and start at your convenience, you miserable piece of shit. Magna justo pellentesque ac lectus. They're nihilists. Quis elit blandit fringilla a. They finally did it. They killed my fucking car. Ut turpis praesent felis ligula, malesuada suscipit malesuada non. Vee vant zat money, Lebowski. Ultrices non urna sed orci ipsum, placerat id condimentum rutrum, rhoncus ac lorem."]]
     [:div {:class "col-md-3 col-md-offset-1 text-center hidden-md hidden-lg"}
-        [:img {:class "photo" :src "../placeholder.png"}]]])
+        [:img {:class "photo" :src "../white-tea.jpg"}]]])
 
 (defn black []
   [:div {:class "row tea-color black-tea"}
@@ -57,7 +57,7 @@
       [:h1 "Black Tea"]
       [:p "Lebowski ipsum yeah man, it really tied the room together. Dolor sit amet, consectetur adipiscing elit praesent ac. Life does not stop and start at your convenience, you miserable piece of shit. Magna justo pellentesque ac lectus. They're nihilists. Quis elit blandit fringilla a. They finally did it. They killed my fucking car. Ut turpis praesent felis ligula, malesuada suscipit malesuada non. Vee vant zat money, Lebowski. Ultrices non urna sed orci ipsum, placerat id condimentum rutrum, rhoncus ac lorem."]]
     [:div {:class "col-md-3 col-md-offset-1 text-center"}
-      [:img {:class "photo" :src "../placeholder.png"}]]])
+      [:img {:class "photo" :src "../black-tea.jpg"}]]])
 
 (defn call-to-action []
   [:div {:class "row"}
@@ -89,7 +89,7 @@
         [:b {:class "white-text"} "White Tea"]
         " every month for "
         [:b "$20"]]]
-      [:a {:class "btn btn-lg" :role "button" :href "/order" }
+      [:a {:class "btn btn-md" :role "button" :href "/order" }
         "Subscribe"
         [:span {:class "glyphicon glyphicon-play" :aria-hidden "true" }]]]])
 
@@ -106,8 +106,8 @@
         [:b {:class "white-text"} "White Teas"]
         " for "
         [:b "$75"]]]
-      [:a {:class "btn btn-lg" :role "button" :href "/order" }
-          "Buy"
+      [:a {:class "btn btn-md" :role "button" :href "/order" }
+          "Order"
           [:span {:class "glyphicon glyphicon-play" :aria-hidden "true" }]]]
     [:div {:class "col-md-3 text-center"}
       [:img {:src "../case.png" }]]])
