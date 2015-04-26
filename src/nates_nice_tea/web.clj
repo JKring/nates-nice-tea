@@ -10,6 +10,7 @@
   (route/resources "/")
   (GET  "/" [] (layout/home))
   (GET  "/order" [] (layout/order))
+  (GET  "/learn" [] (layout/learn))
   (route/not-found (layout/four-oh-four)))
 
 (def application (handler/site routes))
